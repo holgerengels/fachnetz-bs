@@ -5,10 +5,93 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=800px, initial-scale=1.0">
     <title>Navigation</title>
+    <script type="text/javascript">
+        //<![CDATA[
+        destination = {
+"km:pt":{
+    "alle":"https://km-bw.de/,Lde/startseite/schule/termine-hs-wrs-abschlusspruefungen",
+    "bs":"https://km-bw.de/,Lde/startseite/schule/Berufsschule",
+    "bfs":"https://km-bw.de/,Lde/startseite/schule/Berufsfachschulen",
+    "bk":"https://km-bw.de/,Lde/startseite/schule/Berufskollegs",
+    "bg":"https://km-bw.de/,Lde/startseite/schule/Berufliche+Gymnasien",
+    "bos":"https://km-bw.de/,Lde/startseite/schule/Berufsoberschule",
+    "fs":"https://km-bw.de/,Lde/startseite/schule/Fachschulen"},
+"km:e":{
+    "alle":"https://km-bw.de/,Lde/startseite/schule/termine-hs-wrs-abschlusspruefungen",
+    "bs":"https://km-bw.de/,Lde/startseite/schule/Berufsschule",
+    "bfs":"https://km-bw.de/,Lde/startseite/schule/Berufsfachschulen",
+    "bk":"https://km-bw.de/,Lde/startseite/schule/Berufskollegs",
+    "bg":"https://km-bw.de/,Lde/startseite/schule/Berufliche+Gymnasien",
+    "bos":"https://km-bw.de/,Lde/startseite/schule/Berufsoberschule",
+    "fs":"https://km-bw.de/,Lde/startseite/schule/Fachschulen"},
+"ibbw:pa":{
+    "alle":"https://fachnetz-bs.zsl-bw.de/moodle/mod/wiki/view.php?id=1370",
+    "bs":"https://fachnetz-bs.zsl-bw.de/moodle/mod/wiki/view.php?id=1370",
+    "bfs":"https://fachnetz-bs.zsl-bw.de/moodle/mod/wiki/view.php?id=1370",
+    "bk":"https://fachnetz-bs.zsl-bw.de/moodle/mod/wiki/view.php?id=1370",
+    "bg":"https://fachnetz-bs.zsl-bw.de/moodle/mod/wiki/view.php?id=1370",
+    "bos":"https://fachnetz-bs.zsl-bw.de/moodle/mod/wiki/view.php?id=1370",
+    "fs":"https://fachnetz-bs.zsl-bw.de/moodle/mod/wiki/view.php?id=1370"},
+"zsl:bp":{
+    "alle":"https://fachnetz-bs.zsl-bw.de/moodle/mod/page/view.php?id=1381",
+    "bs":"https://fachnetz-bs.zsl-bw.de/moodle/mod/page/view.php?id=1381",
+    "bfs":"https://fachnetz-bs.zsl-bw.de/moodle/mod/page/view.php?id=1381",
+    "bk":"https://fachnetz-bs.zsl-bw.de/moodle/mod/page/view.php?id=1381",
+    "bg":"https://fachnetz-bs.zsl-bw.de/moodle/mod/page/view.php?id=1381",
+    "bos":"https://fachnetz-bs.zsl-bw.de/moodle/mod/page/view.php?id=1381",
+    "fs":"https://fachnetz-bs.zsl-bw.de/moodle/mod/page/view.php?id=1381"},
+"zsl:lf":{
+    "alle":"https://fachnetz-bs.zsl-bw.de/moodle/course/view.php?id=11&amp;section=2&amp;singlesec=2#module-1382",
+    "bs":"https://fachnetz-bs.zsl-bw.de/moodle/course/view.php?id=11&amp;section=2&amp;singlesec=2#module-1382",
+    "bfs":"https://fachnetz-bs.zsl-bw.de/moodle/course/view.php?id=11&amp;section=2&amp;singlesec=2#module-1382",
+    "bk":"https://fachnetz-bs.zsl-bw.de/moodle/course/view.php?id=11&amp;section=2&amp;singlesec=2#module-1382",
+    "bg":"https://fachnetz-bs.zsl-bw.de/moodle/course/view.php?id=11&amp;section=2&amp;singlesec=2#module-1382",
+    "bos":"https://fachnetz-bs.zsl-bw.de/moodle/course/view.php?id=11&amp;section=2&amp;singlesec=2#module-1382",
+    "fs":"https://fachnetz-bs.zsl-bw.de/moodle/course/view.php?id=11&amp;section=2&amp;singlesec=2#module-1382"},
+"zsl:la":{
+    "alle":"https://fachnetz-bs.zsl-bw.de/moodle/mod/page/view.php?id=1641",
+    "bs":"https://fachnetz-bs.zsl-bw.de/moodle/mod/page/view.php?id=1641",
+    "bfs":"https://fachnetz-bs.zsl-bw.de/moodle/mod/page/view.php?id=1641",
+    "bk":"https://fachnetz-bs.zsl-bw.de/moodle/mod/page/view.php?id=1641",
+    "bg":"https://fachnetz-bs.zsl-bw.de/moodle/mod/page/view.php?id=1641",
+    "bos":"https://fachnetz-bs.zsl-bw.de/moodle/mod/page/view.php?id=1641",
+    "fs":"https://fachnetz-bs.zsl-bw.de/moodle/mod/page/view.php?id=1641"},
+"schule:md":{
+    "alle":"https://fachnetz-bs.zsl-bw.de/moodle/mod/data/view.php?id=1301",
+    "bs":"https://fachnetz-bs.zsl-bw.de/moodle/mod/data/view.php?id=1301",
+    "bfs":"https://fachnetz-bs.zsl-bw.de/moodle/mod/data/view.php?id=1301",
+    "bk":"https://fachnetz-bs.zsl-bw.de/moodle/mod/data/view.php?id=1301",
+    "bg":"https://fachnetz-bs.zsl-bw.de/moodle/mod/data/view.php?id=1301",
+    "bos":"https://fachnetz-bs.zsl-bw.de/moodle/mod/data/view.php?id=1301",
+    "fs":"https://fachnetz-bs.zsl-bw.de/moodle/mod/data/view.php?id=1301"},
+"schule:sa":{
+    "alle":"https://lmr.valckenburgschule.de/xwiki/bin/view/Main/",
+    "bs":"https://lmr.valckenburgschule.de/xwiki/bin/view/Main/",
+    "bfs":"https://lmr.valckenburgschule.de/xwiki/bin/view/Main/",
+    "bk":"https://lmr.valckenburgschule.de/xwiki/bin/view/Main/",
+    "bg":"https://lmr.valckenburgschule.de/xwiki/bin/view/Main/",
+    "bos":"https://lmr.valckenburgschule.de/xwiki/bin/view/Main/",
+    "fs":"https://lmr.valckenburgschule.de/xwiki/bin/view/Main/"}        
+}
+
+        function changeSchulart(selectObj) {
+            // get the index of the selected option 
+            var idx = selectObj.selectedIndex;
+            // get the value of the selected option 
+            var which = selectObj.options[idx].value;
+            for (let idn in destination) {
+                // get element to change
+                const elem = document.getElementById(idn);
+                // set xlink:href of element
+                elem.setAttributeNS('http://www.w3.org/1999/xlink', 'href', destination[idn][which]);
+            }
+        }
+       //]]>
+    </script>
 </head>
 <body>
     <label for="schulart">Für Schulart:</label>
-    <select name="schulart" id="schulart">
+    <select name="schulart" id="schulart" onchange="changeSchulart(this);">
         <option value="alle" selected>- Alle -</option>
         <option value="bs">Berufsschule</option>
         <option value="bfs">Berufsfachschule</option>
@@ -64,15 +147,8 @@
             <ellipse style="filter:url(#white-glow); stroke: none; fill: rgb(229, 152, 101);" cx="232" cy="71" rx="64" ry="32"></ellipse>
             <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 12px; text-anchor: middle; white-space: pre;" x="232" y="77">RP</text>
         </a>
-        <a xlink:href="https://fachnetz-bs.zsl-bw.de/moodle/mod/wiki/view.php?id=1370">
-            <ellipse style="filter: url(#white-glow); stroke: none; fill: rgb(133, 193, 233);" cx="598" cy="131" rx="64" ry="32"></ellipse>
-            <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 12px; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, 215.708145, -28.6978)">
-                <tspan x="382.228" y="157.486">Prüfungs-</tspan>
-                <tspan x="382.228" dy="1em">​</tspan>
-                <tspan>aufgaben</tspan>
-            </text>
-        </a>
-        <a xlink:href="https://fachnetz-bs.zsl-bw.de/moodle/mod/page/view.php?id=1641">
+        
+        <a xlink:href="" id="zsl:la">
             <ellipse style="filter:url(#white-glow); stroke: none; fill: rgb(115, 198, 181);" cx="602" cy="218" rx="64" ry="32"></ellipse>
             <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 12px; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, 219.941483, 58.38406)">
                 <tspan x="382.228" y="157.486">Lehrer-</tspan>
@@ -80,7 +156,7 @@
                 <tspan>ausbildung</tspan>
             </text>
         </a>
-        <a xlink:href="https://fachnetz-bs.zsl-bw.de/moodle/course/view.php?id=11&amp;section=2&amp;singlesec=2#module-1382">
+        <a xlink:href="" id="zsl:lf">
             <ellipse style="filter:url(#white-glow); stroke: none; fill: rgb(115, 198, 181);" cx="539" cy="296" rx="64" ry="32"></ellipse>
             <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 12px; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, 156.772003, 136.3022)">
                 <tspan x="382.228" y="157.486">Lehrer-</tspan>
@@ -88,15 +164,15 @@
                 <tspan>fortbildung</tspan>
             </text>
         </a>
-        <a xlink:href="https://fachnetz-bs.zsl-bw.de/moodle/mod/page/view.php?id=1617">
-            <ellipse style="filter:url(#white-glow); stroke: none; fill: rgb(241, 148, 137);" cx="187" cy="311" rx="64" ry="32"></ellipse>
+        <a xlink:href="" id="ibbw:pa">
+            <ellipse style="filter: url(#white-glow); stroke: none; fill: rgb(241, 148, 137);" cx="187" cy="311" rx="64" ry="32"></ellipse>
             <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 12px; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, 128.43425, 244.649231)">
-                <tspan x="58.442" y="64.266">Landes-</tspan>
+                <tspan x="58.442" y="64.266">Prüfungs-</tspan>
                 <tspan x="58.44200134277344" dy="1em">​</tspan>
-                <tspan>bildungsserver</tspan>
+                <tspan>aufgaben</tspan>
             </text>
         </a>
-        <a xlink:href="https://fachnetz-bs.zsl-bw.de/moodle/mod/page/view.php?id=1381">
+        <a xlink:href="" id="zsl:bp">
             <ellipse style="filter: url(#white-glow); stroke: none; fill: rgb(115, 198, 181);" cx="384" cy="306" rx="64" ry="32"></ellipse>
             <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 12px; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, 325.494934, 239.857712)">
                 <tspan x="58.442" y="64.266">Bildungs-</tspan>
@@ -104,15 +180,19 @@
                 <tspan>pläne</tspan>
             </text>
         </a>
-        <ellipse style="filter:url(#white-glow); stroke: none; fill: rgb(248, 195, 112);" cx="79" cy="94" rx="64" ry="32"></ellipse>
-        <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 12px; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, -170.383087, -136.005524)">
-            <tspan x="249.304" y="227.401">Prüfungs-</tspan>
-            <tspan x="249.304" dy="1em">​</tspan>
-            <tspan>termine</tspan>
-        </text>
-        <ellipse style="filter:url(#white-glow); stroke: none; fill: rgb(248, 195, 112);" cx="85" cy="243" rx="64" ry="32"></ellipse>
-        <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 12px; text-anchor: middle; white-space: pre;" x="85" y="249">Erlasse</text>
-        <a xlink:href="https://fachnetz-bs.zsl-bw.de/moodle/mod/data/view.php?id=1301">
+        <a xlink:href="" id="km:pt">
+            <ellipse style="filter:url(#white-glow); stroke: none; fill: rgb(248, 195, 112);" cx="79" cy="94" rx="64" ry="32"></ellipse>
+            <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 12px; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, -170.383087, -136.005524)">
+                <tspan x="249.304" y="227.401">Prüfungs-</tspan>
+                <tspan x="249.304" dy="1em">​</tspan>
+                <tspan>termine</tspan>
+            </text>
+        </a>
+        <a xlink:href="" id="km:e">
+            <ellipse style="filter:url(#white-glow); stroke: none; fill: rgb(248, 195, 112);" cx="85" cy="243" rx="64" ry="32"></ellipse>
+            <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 12px; text-anchor: middle; white-space: pre;" x="85" y="249">Erlasse</text>
+        </a>
+        <a xlink:href="" id="schule:md">
             <ellipse style="filter:url(#white-glow); stroke: none; fill: rgb(133, 193, 233);" cx="559" cy="45" rx="64" ry="32"></ellipse>
             <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 12px; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, 183.380585, -15.11903)">
                 <tspan x="375" y="57.91">Material-</tspan>
@@ -120,39 +200,7 @@
                 <tspan>datenbank</tspan>
             </text>
         </a>
-        <a xlink:href="https://fachnetz-bs.zsl-bw.de/moodle/mod/page/view.php?id=1630">
-            <rect x="690" y="55" width="100" height="35" style="stroke: rgb(0, 0, 0); stroke-width: 0px; fill: rgb(249, 231, 159);" rx="8"></rect>
-            <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 12px; white-space: pre; text-anchor: middle;" x="740" y="76.767">BS</text>
-        </a>
-        <a xlink:href="https://fachnetz-bs.zsl-bw.de/moodle/mod/page/view.php?id=1627">
-            <rect x="690" y="100" width="100" height="35" style="stroke: rgb(0, 0, 0); stroke-width: 0px; fill: rgb(249, 231, 159);" rx="8"></rect>
-            <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 12px; white-space: pre; text-anchor: middle;" x="727.401" y="82.488" transform="matrix(1, 0, 0, 1, 12.903809, 33.279362)">AV, AVdual<tspan x="727.4010009765625" dy="1em">​</tspan>VAB, BEJ</text>
-        </a>
-        <a xlink:href="https://fachnetz-bs.zsl-bw.de/moodle/mod/page/view.php?id=1625">
-            <rect x="690" y="145" width="100" height="35" style="stroke: rgb(0, 0, 0); stroke-width: 0px; fill: rgb(249, 231, 159);" rx="8"></rect>
-            <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 12px; white-space: pre; text-anchor: middle;" x="740" y="166.767">BFS</text>
-        </a>
-        <a xlink:href="https://fachnetz-bs.zsl-bw.de/moodle/mod/page/view.php?id=1626">
-            <rect x="690" y="190" width="100" height="35" style="stroke: rgb(0, 0, 0); stroke-width: 0px; fill: rgb(249, 231, 159);" rx="8"></rect>
-            <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 12px; white-space: pre; text-anchor: middle;" x="739.734" y="211.767">BK</text>
-        </a>
-        <a xlink:href="https://fachnetz-bs.zsl-bw.de/moodle/mod/page/view.php?id=1628">
-            <rect x="690" y="235" width="100" height="35" style="stroke: rgb(0, 0, 0); stroke-width: 0px; fill: rgb(249, 231, 159);" rx="8"></rect>
-            <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 12px; white-space: pre; text-anchor: middle;" x="740" y="256.767">BOS, BAS</text>
-        </a>
-        <a xlink:href="https://fachnetz-bs.zsl-bw.de/moodle/mod/page/view.php?id=1629">
-            <rect x="690" y="280" width="100" height="35" style="stroke: rgb(0, 0, 0); stroke-width: 0px; fill: rgb(249, 231, 159);" rx="8"></rect>
-            <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 12px; white-space: pre; text-anchor: middle;" x="740" y="301.767">FS</text>
-        </a>
-        <a xlink:href="https://fachnetz-bs.zsl-bw.de/moodle/mod/page/view.php?id=1624">
-            <rect x="690" y="325" width="100" height="35" style="stroke: rgb(0, 0, 0); stroke-width: 0px; fill: rgb(249, 231, 159);" rx="8"></rect>
-            <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 12px; white-space: pre; text-anchor: middle;" x="740" y="346.767">BG</text>
-        </a>
-        <a xlink:href="https://fachnetz-bs.zsl-bw.de/moodle/course/view.php?id=11&amp;section=6">
-            <rect x="690" y="10" width="100" height="35" style="stroke: rgb(0, 0, 0); stroke-width: 0px; fill: rgb(249, 231, 159);" rx="8"></rect>
-            <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 14px; white-space: pre;" x="706.549" y="32.311">Schularten</text>
-        </a>
-        <a xlink:href="https://lmr.valckenburgschule.de/xwiki/bin/view/Main/">
+        <a xlink:href="" id="schule:sa">
             <ellipse style="filter:url(#white-glow); stroke: none; fill: rgb(133, 193, 233);" cx="375.945" cy="37.801" rx="64" ry="32"></ellipse>
             <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 12px; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, 0.325595, -22.318338)">
                 <tspan x="375" y="57.91">Schüler-</tspan>
