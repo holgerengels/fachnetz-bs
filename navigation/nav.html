@@ -222,8 +222,22 @@
     <!-- END nav.svg -->
     <script type="text/javascript">
         //<![CDATA[
+            // Get the text field that we're going to track
+            let field = document.getElementById("schulart");
+            // See if we have an autosave value
+            // (this will only happen if the page is accidentally refreshed)
+            if (sessionStorage.getItem("schulart")) {
+                // Restore the contents of the text field
+                field.selectedIndex = sessionStorage.getItem("schulart");
+            }
             // call after load
-            changeSchulart(document.getElementById("schulart"));
+            changeSchulart(field);
+            
+            // Listen for changes in the text field
+            field.addEventListener("change", () => {
+                // And save the results into the session storage object
+                sessionStorage.setItem("schulart", field.selectedIndex);
+            });
         //]]>
     </script>
 </body>
