@@ -98,6 +98,7 @@
     </script>
 </head>
 <body>
+    <div id="navigation">
     <label for="schulart">Für Schulart:</label>
     <select name="schulart" id="schulart" onchange="changeSchulart(this);">
         <option value="alle" selected>- Alle -</option>
@@ -219,6 +220,7 @@
             </text>
         </a>
     </svg>
+    </div>
     <!-- END nav.svg -->
     <script type="text/javascript">
         //<![CDATA[
@@ -238,6 +240,10 @@
                 // And save the results into the session storage object
                 sessionStorage.setItem("schulart", field.selectedIndex);
             });
+
+            if (window.location.search !== "?id=11") {
+                document.getElementById("navigation").style.display = "none";
+            }
         //]]>
     </script>
 </body>
