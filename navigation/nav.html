@@ -5,6 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=800px, initial-scale=1.0">
     <title>Navigation</title>
+    <style>
+        li.section {
+            display: none;
+        }
+        #section-0 {
+            display: block;
+        }
+    </style>
     <script type="text/javascript">
         //<![CDATA[
         destination =
@@ -27,7 +35,7 @@
     "bos":"https://km-bw.de/,Lde/startseite/schule/Berufsoberschule",
     "fs":"https://km-bw.de/,Lde/startseite/schule/Fachschulen"},
 "ibbw:pa":{
-    "alle":"https://fachnetz-bs.zsl-bw.de/moodle/course/view.php?id=11&section=9",
+    "alle":"https://fachnetz-bs.zsl-bw.de/moodle/mod/wiki/view.php?id=1370",
     "bs":"https://fachnetz-bs.zsl-bw.de/moodle/mod/wiki/view.php?pageid=125",
     "bfs":"https://fachnetz-bs.zsl-bw.de/moodle/mod/wiki/view.php?pageid=121",
     "bk":"https://fachnetz-bs.zsl-bw.de/moodle/mod/wiki/view.php?pageid=118",
@@ -98,8 +106,12 @@
     </script>
 </head>
 <body>
+    <ul>
+        <li id="section-0" class="section">
+            <h1>Navigation</h1>
+    <div>
     <label for="schulart">Für Schulart:</label>
-    <select name="schulart" id="schulart" onchange="changeSchulart(this);">
+    <select name="schulart" id="schulart">
         <option value="alle" selected>- Alle -</option>
         <option value="bs">Berufsschule</option>
         <option value="bfs">Berufsfachschule</option>
@@ -115,110 +127,135 @@
                 <feDropShadow dx="0" dy="0" stdDeviation="1.8" flood-color="white"></feDropShadow>
             </filter>
         </defs>
-        <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="183.258" y1="310.86" x2="273.303" y2="238.914"></line>
-        <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="308.394" y1="150.118" x2="272.785" y2="239.853"></line>
-        <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="309.081" y1="150.805" x2="152.386" y2="167.771"></line>
-        <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="308.394" y1="149.43" x2="449.915" y2="114.143"></line>
-        <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="307.707" y1="150.118" x2="436.076" y2="215.225"></line>
-        <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="309.081" y1="150.118" x2="232.685" y2="73.487"></line>
-        <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="152.941" y1="168.778" x2="83.258" y2="245.249"></line>
-        <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="75.566" y1="93.213" x2="152.036" y2="167.873"></line>
-        <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="375.566" y1="37.104" x2="451.584" y2="113.575"></line>
-        <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="560.633" y1="43.439" x2="452.941" y2="114.027"></line>
-        <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="438.462" y1="216.743" x2="604.072" y2="214.934"></line>
-        <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="540.724" y1="298.19" x2="438.462" y2="216.742"></line>
-        <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="436.652" y1="215.837" x2="382.805" y2="306.335"></line>
-        
-        <a xlink:href="https://fachnetz-bs.zsl-bw.de/moodle/course/view.php?id=11&section=1">
-            <ellipse style="filter:url(#white-glow); stroke: none; fill: rgb(187, 143, 206);" cx="309" cy="148" rx="64" ry="32"></ellipse>
-            <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 12px; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, 0.97377, -8.370163)">
-                <tspan x="308" y="154">Landesfachschaft</tspan>
-                <tspan x="308" dy="1em">​</tspan>
-                <tspan>Mathematik &#128279;</tspan>
-            </text>
-        </a>
-        <a xlink:href="https://fachnetz-bs.zsl-bw.de/moodle/course/view.php?id=11&amp;section=3&amp;singlesec=3">
-            <ellipse style="filter:url(#white-glow); stroke: none; fill: rgb(241, 148, 137);" cx="273" cy="238" rx="64" ry="32"></ellipse>
-            <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 12px; text-anchor: middle; white-space: pre;" x="273" y="243">IBBW &#128279;</text>
-        </a>
+        <polyline style="fill: rgb(244, 210, 231);" points="0,0 350,180 350,0 0,0" />
+        <polyline style="fill: rgb(195, 224, 244);" points="350,0 350,180 700,180 700,0 350,0" />
+        <polyline style="fill: rgb(179,224,215);" points="350,180 350,360 700,360 700,180 350,180" />
+        <polyline style="fill: rgb(249, 205, 200);" points="350,180 0,360 350,360 350,180" />
+        <polyline style="fill: rgb(252, 230, 151);" points="0,0 0,360 0,360 350,180 0,0" />
+        <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="350" y1="180" x2="435" y2="120"></line>
+        <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="250" y1="310" x2="310" y2="235"></line>
+    <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="350" y1="180" x2="300" y2="250"></line>
+    <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="350" y1="180" x2="220" y2="180"></line>
+    <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="350" y1="180" x2="435" y2="240"></line>
+    <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="350" y1="180" x2="300" y2="110"></line>
+    <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="220" y1="180" x2="90" y2="240"></line>
+    <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="90" y1="120" x2="220" y2="180"></line>
+    <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="425" y1="50" x2="435" y2="120"></line>
+    <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="580" y1="50" x2="435" y2="120"></line>
+    <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="435" y1="240" x2="610" y2="230"></line>
+    <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="510" y1="280" x2="435" y2="240"></line>
+    <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="435" y1="240" x2="425" y2="310"></line>
         <a xlink:href="https://fachnetz-bs.zsl-bw.de/moodle/course/view.php?id=11&amp;section=4&amp;singlesec=4">
-            <ellipse style="filter:url(#white-glow); stroke: none; fill: rgb(248, 195, 112);" cx="153" cy="167" rx="64" ry="32"></ellipse>
-            <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 12px; text-anchor: middle; white-space: pre;" x="153" y="173">KM &#128279;</text>
-        </a>
-        <a xlink:href="https://fachnetz-bs.zsl-bw.de/moodle/course/view.php?id=11&amp;section=1&amp;singlesec=1">
-            <ellipse style="filter:url(#white-glow); stroke: none; fill: rgb(133, 193, 233);" cx="450.247" cy="112.935" rx="64" ry="32"></ellipse>
-            <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 12px; text-anchor: middle; white-space: pre;" x="450.247" y="117.935">Schulen &#128279;</text>
-        </a>
-        <a xlink:href="https://fachnetz-bs.zsl-bw.de/moodle/course/view.php?id=11&amp;section=2&amp;singlesec=2">
-            <ellipse style="filter:url(#white-glow); stroke: none; fill: rgb(115, 198, 181);" cx="437" cy="215" rx="64" ry="32"></ellipse>
-            <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 12px; text-anchor: middle; white-space: pre;" x="437" y="220">ZSL &#128279;</text>
+            <ellipse style="filter:url(#white-glow); stroke: none; fill: rgb(248, 195, 112);" cx="220" cy="180" rx="30" ry="20"></ellipse>
+        
+            <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 12px; text-anchor: middle; white-space: pre;" x="220" y="185">KM</text>
         </a>
         <a xlink:href="https://fachnetz-bs.zsl-bw.de/moodle/course/view.php?id=11&amp;section=5&amp;singlesec=5">
-            <ellipse style="filter:url(#white-glow); stroke: none; fill: rgb(229, 152, 101);" cx="232" cy="71" rx="64" ry="32"></ellipse>
-            <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 12px; text-anchor: middle; white-space: pre;" x="232" y="77">RP &#128279;</text>
+            <ellipse style="filter:url(#white-glow); stroke: none; fill: rgb(229, 152, 101);" cx="300" cy="110" rx="30" ry="20"></ellipse>
+            <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 12px; text-anchor: middle; white-space: pre;" x="300" y="115">RP</text>
         </a>
-        
+        <a xlink:href="https://fachnetz-bs.zsl-bw.de/moodle/course/view.php?id=11&amp;section=1&amp;singlesec=1">
+            <ellipse style="filter:url(#white-glow); stroke: none; fill: rgb(133, 193, 233);" cx="435" cy="120" rx="30" ry="20"></ellipse>
+            
+            <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 12px; text-anchor: middle; white-space: pre;" x="435" y="125">Schulen</text>
+        </a>
+        <a xlink:href="https://fachnetz-bs.zsl-bw.de/moodle/course/view.php?id=11&amp;section=2&amp;singlesec=2">
+            <ellipse style="filter:url(#white-glow); stroke: none; fill: rgb(115, 198, 181);" cx="435" cy="240" rx="30" ry="20"></ellipse>
+            
+            <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 12px; text-anchor: middle; white-space: pre;" x="435" y="245">ZSL</text>
+        </a>
+        <a xlink:href="https://fachnetz-bs.zsl-bw.de/moodle/course/view.php?id=11&amp;section=3&amp;singlesec=3">
+            <ellipse style="filter:url(#white-glow); stroke: none; fill: rgb(241, 148, 137);" cx="300" cy="250" rx="30" ry="20"></ellipse>
+            
+            <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 12px; text-anchor: middle; white-space: pre;" x="300" y="255">IBBW</text>
+        </a>
+
+        <a xlink:href="https://fachnetz-bs.zsl-bw.de/moodle/course/view.php?id=11&section=1">
+            <ellipse style="filter:url(#white-glow); stroke: none; fill: rgb(187, 143, 206);" cx="350" cy="180" rx="80" ry="40"></ellipse>
+            <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 12px; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, 0.97377, -8.370163)">
+                <tspan x="370" y="185">Landesfachschaft</tspan>
+                <tspan x="340" dy="1.2em">​</tspan>
+                <tspan>Mathematik</tspan>
+            </text>
+        </a>
         <a xlink:href="" id="zsl:la">
-            <ellipse style="filter:url(#white-glow); stroke: none; fill: rgb(115, 198, 181);" cx="602" cy="218" rx="64" ry="32"></ellipse>
+            <ellipse style="filter:url(#white-glow); stroke: none; fill: rgb(115, 198, 181);" cx="610" cy="230" rx="64" ry="32"></ellipse>
             <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 12px; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, 219.941483, 58.38406)">
-                <tspan x="382.228" y="157.486">Lehrer-</tspan>
-                <tspan x="382.228" dy="1em">​</tspan>
-                <tspan>ausbildung &#128279;</tspan>
+                <tspan x="415" y="165">Lehrer-</tspan>
+                <tspan x="382.228" dy="1.2em">​</tspan>
+                <tspan>ausbildung</tspan>
             </text>
         </a>
         <a xlink:href="" id="zsl:lf">
-            <ellipse style="filter:url(#white-glow); stroke: none; fill: rgb(115, 198, 181);" cx="539" cy="296" rx="64" ry="32"></ellipse>
+            <ellipse style="filter:url(#white-glow); stroke: none; fill: rgb(115, 198, 181);" cx="580" cy="310" rx="64" ry="32"></ellipse>
             <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 12px; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, 156.772003, 136.3022)">
-                <tspan x="382.228" y="157.486">Lehrer-</tspan>
-                <tspan x="382.228" dy="1em">​</tspan>
-                <tspan>fortbildung &#128279;</tspan>
+                <tspan x="450" y="165">Lehrer-</tspan>
+                <tspan x="415" dy="1.2em">​</tspan>
+                <tspan>fortbildung</tspan>
             </text>
         </a>
         <a xlink:href="" id="ibbw:pa">
-            <ellipse style="filter: url(#white-glow); stroke: none; fill: rgb(241, 148, 137);" cx="187" cy="311" rx="64" ry="32"></ellipse>
+            <ellipse style="filter: url(#white-glow); stroke: none; fill: rgb(241, 148, 137);" cx="250" cy="310" rx="64" ry="32"></ellipse>
             <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 12px; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, 128.43425, 244.649231)">
-                <tspan x="58.442" y="64.266">Prüfungs-</tspan>
-                <tspan x="58.44200134277344" dy="1em">​</tspan>
-                <tspan>aufgaben &#128279;</tspan>
+                <tspan x="150" y="60">Prüfungs-</tspan>
+                <tspan x="115" dy="1.2em">​</tspan>
+                <tspan>aufgaben</tspan>
             </text>
         </a>
         <a xlink:href="" id="zsl:bp">
-            <ellipse style="filter: url(#white-glow); stroke: none; fill: rgb(115, 198, 181);" cx="384" cy="306" rx="64" ry="32"></ellipse>
+            <ellipse style="filter: url(#white-glow); stroke: none; fill: rgb(115, 198, 181);" cx="425" cy="310" rx="64" ry="32"></ellipse>
             <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 12px; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, 325.494934, 239.857712)">
-                <tspan x="58.442" y="64.266">Bildungs-</tspan>
-                <tspan x="58.442" dy="1em">​</tspan>
-                <tspan>pläne &#128279;</tspan>
+                <tspan x="130" y="65">Bildungs-</tspan>
+                <tspan x="95" dy="1.2em">​</tspan>
+                <tspan>pläne</tspan>
             </text>
         </a>
         <a xlink:href="" id="km:pt">
-            <ellipse style="filter:url(#white-glow); stroke: none; fill: rgb(248, 195, 112);" cx="79" cy="94" rx="64" ry="32"></ellipse>
+            <ellipse style="filter:url(#white-glow); stroke: none; fill: rgb(248, 195, 112);" cx="90" cy="120" rx="64" ry="32"></ellipse>
             <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 12px; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, -170.383087, -136.005524)">
-                <tspan x="249.304" y="227.401">Prüfungs-</tspan>
-                <tspan x="249.304" dy="1em">​</tspan>
-                <tspan>termine &#128279;</tspan>
+                <tspan x="290" y="250">Prüfungs-</tspan>
+                <tspan x="255" dy="1.2em">​</tspan>
+                <tspan>termine</tspan>
             </text>
         </a>
         <a xlink:href="" id="km:e">
-            <ellipse style="filter:url(#white-glow); stroke: none; fill: rgb(248, 195, 112);" cx="85" cy="243" rx="64" ry="32"></ellipse>
-            <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 12px; text-anchor: middle; white-space: pre;" x="85" y="249">Erlasse &#128279;</text>
+            <ellipse style="filter:url(#white-glow); stroke: none; fill: rgb(248, 195, 112);" cx="90" cy="240" rx="64" ry="32"></ellipse>
+            <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 12px; text-anchor: middle; white-space: pre;" x="90" y="245">Erlasse</text>
         </a>
         <a xlink:href="" id="schule:md">
-            <ellipse style="filter:url(#white-glow); stroke: none; fill: rgb(133, 193, 233);" cx="559" cy="45" rx="64" ry="32"></ellipse>
+            <ellipse style="filter:url(#white-glow); stroke: none; fill: rgb(133, 193, 233);" cx="580" cy="50" rx="64" ry="32"></ellipse>
             <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 12px; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, 183.380585, -15.11903)">
-                <tspan x="375" y="57.91">Material-</tspan>
-                <tspan x="375" dy="1em">​</tspan>
-                <tspan>datenbank &#128279;</tspan>
+                <tspan x="425" y="60">Material-</tspan>
+                <tspan x="390" dy="1.2em">​</tspan>
+                <tspan>datenbank</tspan>
             </text>
         </a>
         <a xlink:href="" id="schule:sa">
-            <ellipse style="filter:url(#white-glow); stroke: none; fill: rgb(133, 193, 233);" cx="375.945" cy="37.801" rx="64" ry="32"></ellipse>
+            <ellipse style="filter:url(#white-glow); stroke: none; fill: rgb(133, 193, 233);" cx="425" cy="50" rx="64" ry="32"></ellipse>
             <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 12px; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, 0.325595, -22.318338)">
-                <tspan x="375" y="57.91">Schüler-</tspan>
-                <tspan x="375" dy="1em">​</tspan>
-                <tspan>arbeitshefte &#128279;</tspan>
+                <tspan x="455" y="65">Schüler-</tspan>
+                <tspan x="420" dy="1.2em">​</tspan>
+                <tspan>arbeitshefte</tspan>
             </text>
         </a>
     </svg>
+    </div>
+    </li>
+
+
+<li class="section">
+    <h1>Section 1</h1>
+</li>
+<li class="section">
+    <h1>Section 2</h1>
+</li>
+<li class="section">
+    <h1>Section 3</h1>
+</li>
+<li class="section">
+    <h1>Section 4</h1>
+</li>
+</ul>
     <!-- END nav.svg -->
     <script type="text/javascript">
         //<![CDATA[
@@ -235,10 +272,12 @@
             
             // Listen for changes in the text field
             field.addEventListener("change", () => {
+                changeSchulart(field);
                 // And save the results into the session storage object
                 sessionStorage.setItem("schulart", field.selectedIndex);
             });
         //]]>
     </script>
+
 </body>
 </html>
