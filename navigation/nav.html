@@ -162,7 +162,7 @@
     </select>
     <!-- BEGIN nav.svg -->
     <!-- BEGIN nav.svg -->
-    <svg viewBox="0 0 800 370" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <svg viewBox="0 0 960 444" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
         <defs>
             <filter id="white-glow">
                 <feDropShadow dx="0" dy="0" stdDeviation="1.8" flood-color="white"></feDropShadow>
@@ -329,7 +329,7 @@
 
             restoreNavigation = function() {
                 // hide all li with .section
-                var sections = document.getElementsByClassName("section");
+                var sections = document.getElementsByClassName("course-section");
                 for (var i = 1; i < sections.length; i++) {
                     sections.item(i).style.display = 'none';
                 }
@@ -342,11 +342,13 @@
                 document.getElementById('back').style.display = 'block';
             }
 
-            if (window.location.search == "?id=11") {
-                restoreNavigation();
-            } else {
-                restoreBack();
-            }
+            window.addEventListener("load", (event) => {
+                if (window.location.search == "?id=11") {
+                    restoreNavigation();
+                } else {
+                    restoreBack();
+                }
+            });
         //]]>
     </script>
 
