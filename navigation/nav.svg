@@ -4,11 +4,13 @@
             <feDropShadow dx="0" dy="0" stdDeviation="1.8" flood-color="white"></feDropShadow>
         </filter>
     </defs>
+    <!--
         <polyline style="fill: rgb(244, 210, 231);" points="0,0 350,180 350,0 0,0" />
         <polyline style="fill: rgb(195, 224, 244);" points="350,0 350,180 700,180 700,0 350,0" />
         <polyline style="fill: rgb(179,224,215);" points="350,180 350,360 700,360 700,180 350,180" />
         <polyline style="fill: rgb(249, 205, 200);" points="350,180 0,360 350,360 350,180" />
         <polyline style="fill: rgb(252, 230, 151);" points="0,0 0,360 0,360 350,180 0,0" />
+        -->
         <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="350" y1="180" x2="435" y2="120"></line>
         <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="250" y1="310" x2="310" y2="235"></line>
     <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="350" y1="180" x2="300" y2="250"></line>
@@ -20,34 +22,34 @@
     <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="425" y1="50" x2="435" y2="120"></line>
     <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="580" y1="50" x2="435" y2="120"></line>
     <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="435" y1="240" x2="610" y2="230"></line>
-    <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="510" y1="280" x2="435" y2="240"></line>
+    <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="580" y1="310" x2="435" y2="240"></line>
     <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="435" y1="240" x2="425" y2="310"></line>
-        <a xlink:href="https://km-bw.de/,Lde/startseite/schule/Berufliche+Schulen">
+        <a xlink:href="" id="km">
             <ellipse style="filter:url(#white-glow); stroke: none; fill: rgb(248, 195, 112);" cx="220" cy="180" rx="30" ry="20"></ellipse>
         
             <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 12px; text-anchor: middle; white-space: pre;" x="220" y="185">KM</text>
         </a>
-        <a xlink:href="https://fachnetz-bs.zsl-bw.de/moodle/course/view.php?id=11&section=12">
+        <a xlink:href="" id="rp">
             <ellipse style="filter:url(#white-glow); stroke: none; fill: rgb(229, 152, 101);" cx="300" cy="110" rx="30" ry="20"></ellipse>
             <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 12px; text-anchor: middle; white-space: pre;" x="300" y="115">RP</text>
         </a>
-        
+        <a xlink:href="" id="schule">
             <ellipse style="filter:url(#white-glow); stroke: none; fill: rgb(133, 193, 233);" cx="435" cy="120" rx="30" ry="20"></ellipse>
             
             <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 12px; text-anchor: middle; white-space: pre;" x="435" y="125">Schulen</text>
-        
-        <a xlink:href="https://fachnetz-bs.zsl-bw.de/moodle/course/view.php?id=11&section=4">
+        </a>
+        <a xlink:href="" id="zsl">
             <ellipse style="filter:url(#white-glow); stroke: none; fill: rgb(115, 198, 181);" cx="435" cy="240" rx="30" ry="20"></ellipse>
             
             <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 12px; text-anchor: middle; white-space: pre;" x="435" y="245">ZSL</text>
         </a>
-        <a xlink:href="https://fachnetz-bs.zsl-bw.de/moodle/course/view.php?id=11&section=8">
+        <a xlink:href="" id="ibbw">
             <ellipse style="filter:url(#white-glow); stroke: none; fill: rgb(241, 148, 137);" cx="300" cy="250" rx="30" ry="20"></ellipse>
             
             <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 12px; text-anchor: middle; white-space: pre;" x="300" y="255">IBBW</text>
         </a>
 
-        <a xlink:href="https://fachnetz-bs.zsl-bw.de/moodle/course/view.php?id=11&section=1">
+        <a xlink:href="" id="lfs">
             <ellipse style="filter:url(#white-glow); stroke: none; fill: rgb(187, 143, 206);" cx="350" cy="180" rx="80" ry="40"></ellipse>
             <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 12px; text-anchor: middle; white-space: pre;" transform="matrix(1, 0, 0, 1, 0.97377, -8.370163)">
                 <tspan x="370" y="185">Landesfachschaft</tspan>

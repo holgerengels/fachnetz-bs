@@ -1,6 +1,14 @@
 {
-"km:pt":{
+"km":{
     "alle":"https://fachnetz-bs.zsl-bw.de/moodle/course/view.php?id=11&section=11",
+    "bs":"",
+    "bfs":"",
+    "bk":"",
+    "bg":"",
+    "bos":"",
+    "fs":""},
+"km:pt":{
+    "alle":"https://fachnetz-bs.zsl-bw.de/moodle/course/view.php?id=11&section=13",
     "bs":"https://km-bw.de/,Lde/startseite/schule/Berufsschule",
     "bfs":"https://km-bw.de/,Lde/startseite/schule/Berufsfachschulen",
     "bk":"https://km-bw.de/,Lde/startseite/schule/Berufskollegs",
@@ -8,13 +16,21 @@
     "bos":"https://km-bw.de/,Lde/startseite/schule/Berufsoberschule",
     "fs":"https://km-bw.de/,Lde/startseite/schule/Fachschulen"},
 "km:e":{
-    "alle":"https://fachnetz-bs.zsl-bw.de/moodle/course/view.php?id=11&section=10",
+    "alle":"https://fachnetz-bs.zsl-bw.de/moodle/course/view.php?id=11&section=12",
     "bs":"https://km-bw.de/,Lde/startseite/schule/Berufsschule",
     "bfs":"https://km-bw.de/,Lde/startseite/schule/Berufsfachschulen",
     "bk":"https://km-bw.de/,Lde/startseite/schule/Berufskollegs",
     "bg":"https://km-bw.de/,Lde/startseite/schule/Berufliche+Gymnasien",
     "bos":"https://km-bw.de/,Lde/startseite/schule/Berufsoberschule",
     "fs":"https://km-bw.de/,Lde/startseite/schule/Fachschulen"},
+"ibbw":{
+    "alle":"https://fachnetz-bs.zsl-bw.de/moodle/course/view.php?id=11&section=9",
+    "bs":"",
+    "bfs":"",
+    "bk":"",
+    "bg":"",
+    "bos":"",
+    "fs":""},
 "ibbw:pa":{
     "alle":"https://fachnetz-bs.zsl-bw.de/moodle/mod/wiki/view.php?id=1370",
     "bs":"https://fachnetz-bs.zsl-bw.de/moodle/mod/wiki/view.php?pageid=125",
@@ -23,8 +39,16 @@
     "bg":"https://fachnetz-bs.zsl-bw.de/moodle/mod/wiki/view.php?pageid=112",
     "bos":"https://fachnetz-bs.zsl-bw.de/moodle/mod/wiki/view.php?pageid=128",
     "fs":"https://fachnetz-bs.zsl-bw.de/moodle/mod/wiki/view.php?pageid=129"},
+"zsl":{
+    "alle":"https://fachnetz-bs.zsl-bw.de/moodle/course/view.php?id=11&section=5",
+    "bs":"",
+    "bfs":"",
+    "bk":"",
+    "bg":"",
+    "bos":"",
+    "fs":""},
 "zsl:bp":{
-    "alle":"https://fachnetz-bs.zsl-bw.de/moodle/course/view.php?id=11&section=7",
+    "alle":"https://fachnetz-bs.zsl-bw.de/moodle/course/view.php?id=11&section=8",
     "bs":"https://fachnetz-bs.zsl-bw.de/moodle/mod/page/view.php?id=1819",
     "bfs":"https://fachnetz-bs.zsl-bw.de/moodle/mod/page/view.php?id=1820",
     "bk":"https://fachnetz-bs.zsl-bw.de/moodle/mod/page/view.php?id=1821",
@@ -32,7 +56,7 @@
     "bos":"https://fachnetz-bs.zsl-bw.de/moodle/mod/page/view.php?id=1823",
     "fs":"https://fachnetz-bs.zsl-bw.de/moodle/mod/page/view.php?id=1824"},
 "zsl:lf":{
-    "alle":"https://fachnetz-bs.zsl-bw.de/moodle/course/view.php?id=11&section=6",
+    "alle":"https://fachnetz-bs.zsl-bw.de/moodle/course/view.php?id=11&section=7",
     "bs":"",
     "bfs":"",
     "bk":"",
@@ -40,7 +64,15 @@
     "bos":"",
     "fs":""},
 "zsl:la":{
-    "alle":"https://fachnetz-bs.zsl-bw.de/moodle/course/view.php?id=11&section=5",
+    "alle":"https://fachnetz-bs.zsl-bw.de/moodle/course/view.php?id=11&section=6",
+    "bs":"",
+    "bfs":"",
+    "bk":"",
+    "bg":"",
+    "bos":"",
+    "fs":""},
+"schule":{
+    "alle":"https://fachnetz-bs.zsl-bw.de/moodle/course/view.php?id=11&section=2",
     "bs":"",
     "bfs":"",
     "bk":"",
@@ -56,11 +88,27 @@
     "bos":"",
     "fs":""},
 "schule:sa":{
-    "alle":"https://fachnetz-bs.zsl-bw.de/moodle/course/view.php?id=11&section=2",
+    "alle":"https://fachnetz-bs.zsl-bw.de/moodle/course/view.php?id=11&section=3",
     "bs":"",
     "bfs":"",
     "bk":"",
     "bg":"",
     "bos":"",
-    "fs":""}        
+    "fs":""},
+"lfs":{
+    "alle":"https://fachnetz-bs.zsl-bw.de/moodle/course/view.php?id=11&section=1",
+    "bs":"",
+    "bfs":"",
+    "bk":"",
+    "bg":"",
+    "bos":"",
+    "fs":""},
+"rp":{
+    "alle":"https://fachnetz-bs.zsl-bw.de/moodle/course/view.php?id=11&section=14",
+    "bs":"",
+    "bfs":"",
+    "bk":"",
+    "bg":"",
+    "bos":"",
+    "fs":""}
 }
