@@ -315,7 +315,7 @@
         //<![CDATA[
             let elefant = document.getElementById("section-0");
             elefant.style.paddingTop = "0px";
-            elefant.getElementsByTagName("h3")[0].style.display = 'none';
+            elefant.getElementsByClassName("course-section-header")[0].style.setProperty('display', 'none', 'important');
 
             // Get the text field that we're going to track
             let field = document.getElementById("schulart");
