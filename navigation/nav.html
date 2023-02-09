@@ -5,14 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=800px, initial-scale=1.0">
     <title>Navigation</title>
-    <style>
-        li.section {
-            display: none;
-        }
-        #section-0 {
-            display: block;
-        }
-    </style>
     <script type="text/javascript">
         //<![CDATA[
         destination =
@@ -109,7 +101,7 @@
     <ul>
         <li id="section-0" class="section">
             <h1>Navigation</h1>
-    <div>
+    <div id="navigation" style="display:none; margin-left: 12px; margin-top: -4px;">
     <label for="schulart">Für Schulart:</label>
     <select name="schulart" id="schulart">
         <option value="alle" selected>- Alle -</option>
@@ -241,6 +233,11 @@
 
     </svg>
     </div>
+    <a id="back" style="display: none" onclick="restoreNavigation();">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+            <path stroke="rgba(0, 0, 0, 0.6)" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path>
+        </svg> Navigation
+    </a>
     </li>
 
 
@@ -277,6 +274,27 @@
                 // And save the results into the session storage object
                 sessionStorage.setItem("schulart", field.selectedIndex);
             });
+
+            restoreNavigation = function() {
+                // hide all li with .section
+                var sections = document.getElementsByClassName("section");
+                for (var i = 1; i < sections.length; i++) {
+                    sections.item(i).style.display = 'none';
+                }
+                document.getElementById('navigation').style.display = 'block';
+                document.getElementById('back').style.display = 'none';
+            }
+
+            restoreBack = function() {
+                document.getElementById("navigation").style.display = "none";
+                document.getElementById('back').style.display = 'block';
+            }
+
+            if (window.location.search !== "?id=11") {
+                restoreBack();
+            } else {
+                restoreNavigatipon();
+            }
         //]]>
     </script>
 
